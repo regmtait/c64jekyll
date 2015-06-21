@@ -2,6 +2,8 @@
 
 Let's get blogging like it's 1985 with this C64 theme for [Jekyll](http://jekyllrb.com), the simple, blog aware, static site generator from GitHub.
 
+![Screenshot of C64 theme for Jeykll](images/screenshot-duo.png)
+
 ## Amazing features
 
 * No plug ins, so you can host on [GitHub pages](https://pages.github.com/), if you like
