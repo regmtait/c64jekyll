@@ -1,0 +1,254 @@
+
+@font-face {
+    font-family: 'cbmmedium';
+    src: url('/fonts/cbm-webfont.eot');
+    src: url('/fonts/cbm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/cbm-webfont.woff2') format('woff2'),
+         url('/fonts/cbm-webfont.woff') format('woff'),
+         url('/fonts/cbm-webfont.ttf') format('truetype'),
+         url('/fonts/cbm-webfont.svg#cbmmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {padding: 0; margin: 0;}
+
+html {
+    font-size: $base-font-size;
+    background: #555;
+}
+
+@media only screen and (max-width: 200px) {
+    html {
+    font-size: 12px !important;
+    border-width: 20px;
+    }
+}
+
+@media only screen and (min-width: $width-large) {
+    html {
+    font-size: 20px;
+    }
+}
+
+body { 
+    border: 40px solid $main-color;
+    background: $background-color;
+    font-family: $base-font-family;
+    font-size: 1rem;
+    color: $text-color;
+    -webkit-text-size-adjust: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    line-height: 1.2;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: $width-tiny) {
+    body {
+    border-width: 20px;
+    }
+    body, h1, h2, h3, h4, h5, h6,
+    p, blockquote, pre, hr,
+    dl, dd, ol, ul, figure {
+    font-size: 12px;
+    }
+}
+
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: 1.2rem;
+}
+
+a {
+    color: $text-color;
+    text-decoration: none;
+    &:hover {
+        color: $background-color;
+        background: $text-color;
+    }
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    border-top: 2rem;
+    border-bottom: 2rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+h1:after {
+    content: "------------";
+    //overflow: hidden;
+    //float: left;
+    clear: both;
+    display: block;
+    //display: inline-block;
+}
+
+h2, h3 {
+    margin-top: 2rem;
+}
+
+img {
+    clear: both;
+}
+
+figure > img {
+    display: block;
+}
+
+::-moz-selection {
+    color: $background-color;
+    background: $main-color;
+}
+
+::selection {
+    color: $background-color;
+    background: $main-color;
+}
+
+code {
+    color: $background-color;
+    background: $main-color;
+    font-family: 'cbmmedium';
+}
+
+li.current a {
+    color: $background-color;
+    background: $text-color;
+}
+
+ul {
+    list-style: none;
+
+li:before {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    content: "* ";
+    }
+}
+
+ol {
+    margin-left: 2rem; padding-left: 0;
+    li {margin-left: 1rem; padding-left: 0;}
+}
+
+blockquote {
+    margin-left: 2rem;
+}
+
+footer {
+        ul {
+            margin-top: 1rem;
+    }
+}
+
+footer:before {
+    content: "------------";
+    clear: both;
+    display: block;
+}
+
+.page-content {
+    li, p, h2 {
+        a:before {content: "["}
+    }
+    li, p, h2 {
+        a:after {content: "]"}
+    }
+}
+
+p.intro {
+    text-align: center;
+}
+
+@media only screen and (min-width: $width-small) {
+    p.intro {
+    max-width: 90%;
+    margin: 0 auto;
+    }
+}
+
+.site-nav ul {
+    li {
+        display: inline;
+        a {
+            display: inline;
+        }
+    }
+
+    text-align: center;
+    li:before {
+        content: "";
+    }
+    li:after {
+        content: "/";
+    }
+    li:last-child:after {
+        content: none;
+    }
+}
+
+.post-list-item {
+    h2, h3 {
+    margin-top: 0;
+    }
+}
+
+.site-title {
+    text-align: center;
+    display: block;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+}
+
+.site-title:before {
+content: "**** " !important;
+}
+.site-title:after {
+content: " ****";
+}
+
+@media screen and (max-width: $width-small - 1px) {
+    .site-title:before, .site-title:after {
+        clear: both;
+        display: block;
+    }
+}
+
+.go-back {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.go-back:before {
+    content: "_ ";
+    text-transform: lowercase;
+}
+
+.post {
+    h1 {margin-bottom: 0;}
+}
+
+%clearfix {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

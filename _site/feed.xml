@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A C64 Theme for Jekyll</title>
+    <description>Get blogging like it&#39;s 1985 with this Commodore 64 theme for Jekyll, the simple, blog aware, static site generator from GitHub.</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 21 Jun 2015 13:45:57 +0100</pubDate>
+    <lastBuildDate>Sun, 21 Jun 2015 13:45:57 +0100</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Let&#39;s get blogging</title>
+        <description>&lt;p&gt;There are lots of good reasons to keep a blog. It will help to improve your writing, maintain a useful habit, and help shape your thoughts.&lt;/p&gt;
+
+&lt;p&gt;You might also help and inspire others by sharing your point of view.&lt;/p&gt;
+
+&lt;p&gt;So, why not getting blogging with this handsome C64 inspired theme?&lt;/p&gt;
+</description>
+        <pubDate>Sat, 20 Jun 2015 17:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/blog/theme/2015/06/20/lets-get-blogging.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/blog/theme/2015/06/20/lets-get-blogging.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>theme</category>
+        
+      </item>
+    
+      <item>
+        <title>A brand new Jekyll theme</title>
+        <description>&lt;p&gt;Fabio vel iudice vincam, sunt in culpa qui officia. Tu quoque, Brute, fili mi, nihil timor populi, nihil! Inmensae subtilitatis, obscuris et malesuada fames. Excepteur sint obcaecat cupiditat non proident culpa.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This is an unordered list item&lt;/li&gt;
+  &lt;li&gt;And another&lt;/li&gt;
+  &lt;li&gt;And another&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Blockquote magna pars studiorum, prodita quaerimus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus. Unam incolunt Belgae, aliam Aquitani, tertiam. Ut enim ad minim veniam, quis nostrud exercitation. Pellentesque habitant morbi tristique senectus et netus.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;heading-level-two&quot;&gt;Heading level two&lt;/h2&gt;
+
+&lt;p&gt;Ullamco laboris nisi ut aliquid ex ea commodi consequat. Cras mattis iudicium purus sit amet fermentum. Idque Caesaris facere voluntate liceret: sese habere. Sed haec quis possit intrepidus aestimare tellus.&lt;/p&gt;
+
+&lt;h2 id=&quot;heading-level-three&quot;&gt;Heading level three&lt;/h2&gt;
+
+&lt;p&gt;Paullum deliquit, ponderibus modulisque suis ratio utitur.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;This is an ordered list item&lt;/li&gt;
+  &lt;li&gt;And another&lt;/li&gt;
+  &lt;li&gt;And another&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Excepteur sint obcaecat cupiditat non proident culpa. Contra legem facit qui id facit quod lex prohibet. Fabio vel iudice vincam, sunt in culpa qui officia. At nos hinc posthac, sitientis piros Afros.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 19 Jun 2015 13:57:28 +0100</pubDate>
+        <link>http://yourdomain.com/c64/update/2015/06/19/brand-new.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/c64/update/2015/06/19/brand-new.html</guid>
+        
+        
+        <category>c64</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Can a Commodore 64 connect to the internet?</title>
+        <description>&lt;p&gt;The answer is yes! This amazing &lt;a href=&quot;https://www.youtube.com/watch?v=iccQZCxDd60&quot;&gt;video&lt;/a&gt; by Dan Wood of &lt;a href=&quot;http://kookytech.net&quot;&gt;KookyTech&lt;/a&gt; shows how.&lt;/p&gt;
+
+&lt;p&gt;Highlights include downloading ROMs off the Internet directly to disk, and browsing the web using a version of the Lynx browser. &lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 19 Jun 2015 11:00:00 +0100</pubDate>
+        <link>http://yourdomain.com/c64/internet/2015/06/19/c64-connects-to-the-net.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/c64/internet/2015/06/19/c64-connects-to-the-net.html</guid>
+        
+        
+        <category>c64</category>
+        
+        <category>internet</category>
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on the &lt;a href=&quot;https://github.com/jekyll/jekyll-help&quot;&gt;Jekyll dedicated Help repository&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 12 Jun 2015 13:57:28 +0100</pubDate>
+        <link>http://yourdomain.com/jekyll/update/2015/06/12/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/06/12/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>

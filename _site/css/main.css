@@ -1,0 +1,180 @@
+@font-face {
+  font-family: 'cbmmedium';
+  src: url("/fonts/cbm-webfont.eot");
+  src: url("/fonts/cbm-webfont.eot?#iefix") format("embedded-opentype"), url("/fonts/cbm-webfont.woff2") format("woff2"), url("/fonts/cbm-webfont.woff") format("woff"), url("/fonts/cbm-webfont.ttf") format("truetype"), url("/fonts/cbm-webfont.svg#cbmmedium") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 16px;
+  background: #555; }
+
+@media only screen and (max-width: 200px) {
+  html {
+    font-size: 12px !important;
+    border-width: 20px; } }
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 20px; } }
+body {
+  border: 40px solid #b4b7ff;
+  background: #545eec;
+  font-family: "cbmmedium", monospace, sans-serif;
+  font-size: 1rem;
+  color: #b4b7ff;
+  -webkit-text-size-adjust: 100%;
+  padding-left: 4px;
+  padding-right: 4px; }
+
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  line-height: 1.2;
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+@media screen and (max-width: 400px) {
+  body {
+    border-width: 20px; }
+
+  body, h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre, hr,
+  dl, dd, ol, ul, figure {
+    font-size: 12px; } }
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+  margin-bottom: 1.2rem; }
+
+a {
+  color: #b4b7ff;
+  text-decoration: none; }
+  a:hover {
+    color: #545eec;
+    background: #b4b7ff; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+h1 {
+  border-top: 2rem;
+  border-bottom: 2rem;
+  display: block;
+  margin-top: 2rem; }
+
+h1:after {
+  content: "------------";
+  clear: both;
+  display: block; }
+
+h2, h3 {
+  margin-top: 2rem; }
+
+img {
+  clear: both; }
+
+figure > img {
+  display: block; }
+
+::-moz-selection {
+  color: #545eec;
+  background: #b4b7ff; }
+
+::selection {
+  color: #545eec;
+  background: #b4b7ff; }
+
+code {
+  color: #545eec;
+  background: #b4b7ff;
+  font-family: 'cbmmedium'; }
+
+li.current a {
+  color: #545eec;
+  background: #b4b7ff; }
+
+ul {
+  list-style: none; }
+  ul li:before {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    content: "* "; }
+
+ol {
+  margin-left: 2rem;
+  padding-left: 0; }
+  ol li {
+    margin-left: 1rem;
+    padding-left: 0; }
+
+blockquote {
+  margin-left: 2rem; }
+
+footer ul {
+  margin-top: 1rem; }
+
+footer:before {
+  content: "------------";
+  clear: both;
+  display: block; }
+
+.page-content li a:before, .page-content p a:before, .page-content h2 a:before {
+  content: "["; }
+.page-content li a:after, .page-content p a:after, .page-content h2 a:after {
+  content: "]"; }
+
+p.intro {
+  text-align: center; }
+
+@media only screen and (min-width: 700px) {
+  p.intro {
+    max-width: 90%;
+    margin: 0 auto; } }
+.site-nav ul {
+  text-align: center; }
+  .site-nav ul li {
+    display: inline; }
+    .site-nav ul li a {
+      display: inline; }
+  .site-nav ul li:before {
+    content: ""; }
+  .site-nav ul li:after {
+    content: "/"; }
+  .site-nav ul li:last-child:after {
+    content: none; }
+
+.post-list-item h2, .post-list-item h3 {
+  margin-top: 0; }
+
+.site-title {
+  text-align: center;
+  display: block;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem; }
+
+.site-title:before {
+  content: "**** " !important; }
+
+.site-title:after {
+  content: " ****"; }
+
+@media screen and (max-width: 699px) {
+  .site-title:before, .site-title:after {
+    clear: both;
+    display: block; } }
+.go-back {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: inline-block; }
+
+.go-back:before {
+  content: "_ ";
+  text-transform: lowercase; }
+
+.post h1 {
+  margin-bottom: 0; }

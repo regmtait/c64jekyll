@@ -1,0 +1,11 @@
+# Site settings
+title: A C64 Theme for Jekyll
+email: regmtait@gmail.com
+description: "Get blogging like it's 1985 with this Commodore 64 theme for Jekyll, the simple, blog aware, static site generator from GitHub."
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: regmtait
+github_username:  regmtait
+
+# Build settings
+markdown: kramdown
