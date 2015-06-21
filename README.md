@@ -17,4 +17,4 @@ By [Reg Tait](http://regmtait.co.uk). The CBM font was Created by Christian Voge
 
 ## Copyright
 
-This is free, you can do what you like with it.
+This is free. You can do what you like with it.
