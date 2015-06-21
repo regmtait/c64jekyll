@@ -1,6 +1,6 @@
 # A Commodore 64 theme for Jekyll
 
-Let's get blogging like it's 1985 with this C64 theme for [Jekyll](http://jekyllrb.com), the simple, blog aware, static site generator from GitHub.
+Let's get blogging like it's 1985 with this C64 theme for [Jekyll](http://jekyllrb.com), the simple, blog aware, static site generator from GitHub. You can see it in action <a href="http://regmtait.github.io/c64jekyll/">right here</a>.
 
 ![Screenshot of C64 theme for Jeykll](images/screenshot-duo.png)
 
