@@ -9,3 +9,6 @@ github_username:  regmtait
 
 # Build settings
 markdown: kramdown
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"] # Turn off smart quotes
